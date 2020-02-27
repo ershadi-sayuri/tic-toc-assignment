@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.accept-button {
+  border: 0;
+  border-radius: 0px;
+  box-shadow: none;
+  color: black;
+  cursor: pointer;
+  flex: 0 0 auto;
+  padding: 5px 10px;
+  margin: 15px;
+  background-color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.cookie-consent-content{
+  flex: 1 0 300px;
+  margin: 15px;
+}
+
+.cookie-consent-component{
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background: #ADD8E6;
+  color: black;
+  bottom: 0;
+}
